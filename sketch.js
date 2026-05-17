@@ -100,13 +100,10 @@ function keyPressed() {
   }
 }
 
-function drawCloud(x, y, scale = 1) {
-  noStroke();
+function drawCloud(x, y,) {
   fill(255);
-
-  // Main puffs
-  ellipse(x, y, 120 * scale, 80 * scale);
-  ellipse(x - 50 * scale, y + 10 * scale, 80 * scale, 60 * scale);
-  ellipse(x + 50 * scale, y + 10 * scale, 80 * scale, 60 * scale);
-  ellipse(x, y + 25 * scale, 140 * scale, 70 * scale);
+  ellipse(x, y, 120, 80);
+  ellipse(x - 50, y + 10, 80, 60);
+  ellipse(x + 50, y + 10, 80, 60);
+  ellipse(x, y + 25, 140, 70);
 }

@@ -1,4 +1,4 @@
-# Week 1 Example 1: Images and Shapes
+# Side quest week 1
 
 ## What This Example Demonstrates
 
