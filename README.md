@@ -1,20 +1,4 @@
-# Side quest week 1
-
-## What This Example Demonstrates
-
-> **Note for students:** This section is included in example files only to help you study. Do not include it in your Side Quest submissions.
-
-This example introduces how to load and display images alongside shapes drawn with p5.js code.
-
-- `preload()` — loads images and sounds before the sketch starts, so they are ready to use in `setup()` and `draw()`
-- `setup()` — runs once at the start; used here to draw everything since nothing needs to animate
-- `draw()` — runs on a loop after `setup()`; left empty here since the sketch is static
-- `image()` — draws a loaded image onto the canvas at a specified position and size
-- `rect()`, `ellipse()`, `line()` — basic shape functions used to build the controller drawing
-- `fill()`, `stroke()`, `strokeWeight()` — control the colour and outline of shapes and text
-- `text()`, `textSize()`, `textAlign()` — display and style text on the canvas
-- `mousePressed()` — runs code automatically each time the mouse is clicked
-- `keyPressed()` — runs code automatically each time a key is pressed; used here as a debug tool to log mouse coordinates
+# Side quest week 1: Jenga Clouds
 
 ## Setup and Interaction Instructions
 
@@ -29,10 +13,11 @@ To play via GitHub Pages, visit the link provided on the submission page.
 
 ## Assets
 
-| File | Source |
-|------|--------|
-| `assets/images/controller.png` | Drawn by Karen Cochrane |
+| File                      | Source                  |
+| ------------------------- | ----------------------- |
+| `assets/images/jenga.png` | By YusefDon [1]         |
+
 
 ## References
 
-N/A
+[1] YusefDon. 2025. Wooden Jenga Tower Free PNG and Clipart. https://pngtree.com/freepng/wooden-jenga-tower_20850718.html
