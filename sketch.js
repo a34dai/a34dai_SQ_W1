@@ -1,5 +1,7 @@
+let jengaImg;
 
 function preload() {
+
   jengaImg = loadImage("assets/images/jenga.png");
 }
 
@@ -19,7 +21,6 @@ function setup() {
   textSize(34);
   text("Don't fall!!!", 200, 150);
   
-
   image(jengaImg, 300, 30, 600, 600);
 }
 
@@ -38,7 +39,7 @@ function keyPressed() {
 
 function drawCloud(x, y,) {
   fill(255);
-  NoStroke();
+  noStroke();
   ellipse(x, y, 120, 80);
   ellipse(x - 50, y + 10, 80, 60);
   ellipse(x + 50, y + 10, 80, 60);
